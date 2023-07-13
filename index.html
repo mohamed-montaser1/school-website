@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School Website</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body style="background-color: #eee !important">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Asseddiq School</a>
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Asseddiq School
+            </h5>
+            <button
+              type="button"
+              class="btn-close shadow-none border-0"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+            <hr class="offcanvas-header-hr" />
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#courses">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+            <button
+              class="btn btn-primary"
+              onclick="location.href = `${location.origin}/login.html`"
+            >
+              Login Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section
+      class="landing vh-100 d-flex justify-content-center align-items-center mb-5"
+      id="#home"
+    >
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-xs-12 col-lg-6 d-flex flex-column justify-content-center"
+          >
+            <h1>Hello World This is school</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic earum
+              voluptates quis laboriosam est ex architecto. Magnam dolorum
+              similique hic amet, assumenda, eius asperiores voluptatem corrupti
+              nisi, accusamus a eaque.
+            </p>
+          </div>
+          <div class="col-md-6 landing-img-side">
+            <img src="./img/landing-img.svg" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about my-5" style="min-height: 74vh" id="about">
+      <h2 class="text-center mb-5">About Us</h2>
+      <div class="container d-flex">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <img src="./img/education.svg" class="img-fluid" alt="education" />
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <p class="lead">
+              there is some text here to show up how it will work. there is some
+              text here to show up how it will work. there is some text here to
+              show up how it will work. there is some text here to show up how
+              it will work. there is some text here to show up how it will work.
+              there is some text here to show up how it will work.
+            </p>
+            <a href="#courses" class="btn btn-primary">Our Courses</a>
+            <a href="#contact" class="btn btn-primary">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="courses mb-5" style="min-height: 74vh" id="courses">
+      <h2 class="text-center mb-5">Our Courses</h2>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-sm-12 col-md-6 col-lg-4 mb-4 pointer"
+            style="height: 150px"
+          >
+            <div
+              class="w-100 h-100 bg-dark d-flex rounded justify-content-center align-items-center"
+            >
+              <h4 class="text-white">Course One Image</h4>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-6 col-lg-4 mb-4 pointer"
+            style="height: 150px"
+          >
+            <div
+              class="w-100 h-100 bg-dark d-flex rounded justify-content-center align-items-center"
+            >
+              <h4 class="text-white">Course Two Image</h4>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-6 col-lg-4 mb-4 pointer"
+            style="height: 150px"
+          >
+            <div
+              class="w-100 h-100 bg-dark d-flex rounded justify-content-center align-items-center"
+            >
+              <h4 class="text-white">Course Three Image</h4>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-6 col-lg-4 mb-4 pointer"
+            style="height: 150px"
+          >
+            <div
+              class="w-100 h-100 bg-dark d-flex rounded justify-content-center align-items-center"
+            >
+              <h4 class="text-white">Course Four Image</h4>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-6 col-lg-4 mb-4 pointer"
+            style="height: 150px"
+          >
+            <div
+              class="w-100 h-100 bg-dark d-flex rounded justify-content-center align-items-center"
+            >
+              <h4 class="text-white">Course Five Image</h4>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-6 col-lg-4 mb-4 pointer"
+            style="height: 150px"
+          >
+            <div
+              class="w-100 h-100 bg-dark d-flex rounded justify-content-center align-items-center"
+            >
+              <h4 class="text-white">Course Six Image</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" style="margin-bottom: 110px">
+      <h2 class="text-center mb-5">Contact Us</h2>
+      <div class="container">
+        <form class="row needs-validation" novalidate>
+          <div class="col-sm-12 col-md-6 mb-2">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Your Name..."
+              required
+            />
+            <p class="valid-feedback lead">Looks good!</p>
+            <p class="invalid-feedback lead">Please Enter Your Name Here!</p>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Your Email..."
+              required
+            />
+            <p class="valid-feedback lead">Looks good!</p>
+            <p class="invalid-feedback lead">
+              Please Enter A Valid Email Here!
+            </p>
+          </div>
+          <div class="col-sm-12">
+            <textarea
+              class="form-control mt-2"
+              placeholder="Your Message Here..."
+              style="height: 150px; resize: none"
+              required
+            ></textarea>
+            <p class="valid-feedback lead">Looks good!</p>
+            <p class="invalid-feedback lead">Please Enter Message</p>
+          </div>
+          <div class="col-sm-12">
+            <button class="btn btn-primary mx-auto mt-4 d-block">
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="mt-5 bg-light p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">Asseddiq School</h2>
+          </div>
+          <div class="col-sm-12">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">Home</li>
+              <li class="list-inline-item">About Us</li>
+              <li class="list-inline-item">Courses</li>
+              <li class="list-inline-item">Contact Us</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 text-center">
+            <p class="lead">
+              All Right Reversed ©️ 2023 <span id="footer-date"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/jquery.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <!-- Production version of popper js -->
+    <!-- <script src="https://unpkg.com/@popperjs/core@2"></script> -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

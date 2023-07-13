@@ -1,0 +1,37 @@
+.pointer {
+  cursor: pointer;
+}
+
+.offcanvas-header {
+  position: relative;
+}
+
+.offcanvas-header-hr {
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav li {
+    text-align: center;
+  }
+  .navbar-nav + button.btn {
+    position: absolute;
+    left: 50%;
+    translate: -50% 0;
+    bottom: 20px;
+  }
+}
+
+nav.navbar {
+  border-bottom: 1px solid rgba(54, 54, 54, 0.386);
+}
+
+@media (max-width: 991px) {
+  .landing-img-side {
+    display: none;
+  }
+}
