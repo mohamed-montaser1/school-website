@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School Website</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body style="background-color: #eee !important">
+    <nav class="navbar navbar-expand-sm bg-body-tertiary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Asseddiq School</a>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Asseddiq School
+            </h5>
+            <button
+              type="button"
+              class="btn-close shadow-none border-0"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+            <hr class="offcanvas-header-hr" />
+          </div>
+          <div class="offcanvas-body">
+            <button
+              class="btn btn-primary ms-auto"
+              onclick="location.href = `${location.origin}/login.html`"
+            >
+              Login Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="vh-100 d-flex justify-content-center align-items-center flex-column"
+    >
+      <h2 class="mb-5">Login</h2>
+      <div class="container">
+        <input
+          type="email"
+          class="form-control mb-2 mx-auto"
+          placeholder="Your Email..."
+          style="width: 400px; max-width: 100%"
+        />
+        <input
+          type="password"
+          class="form-control mb-3 mx-auto"
+          placeholder="Your Password..."
+          style="width: 400px; max-width: 100%"
+        />
+        <button class="btn btn-primary d-block mx-auto">Login</button>
+      </div>
+    </section>
+    <script src="./js/jquery.min.js"></script>
+    <!-- Development version of popper js -->
+    <!-- <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script> -->
+    <!-- Production version of popper js -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
